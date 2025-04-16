@@ -24,7 +24,7 @@ export default function Input() {
         <input type="text" onChange={getUserName}/>
         <label>password</label>
         <input type="password" onChange={getPassword}/>
-        <button onClick={getDetailes}>submit</button>
+        {/* <button onClick={getDetailes}>submit</button> */}
 
     </div>
   )
