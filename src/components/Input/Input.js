@@ -11,9 +11,10 @@ export default function Input() {
         console.log(event.target.value)
         setPassword(event.target.value)
     }
-    // function getDetailes(){
+    function getDetailes(){
+      console.log(userName,password)
 
-    // }
+    }
   return (
     
     <div>
@@ -24,7 +25,7 @@ export default function Input() {
         <input type="text" onChange={getUserName}/>
         <label>password</label>
         <input type="password" onChange={getPassword}/>
-        {/* <button onClick={getDetailes}>submit</button> */}
+        <button onClick={getDetailes}>submit</button>
 
     </div>
   )
