@@ -28,6 +28,8 @@ export default function LifeCycleApi() {
                                         <div class="card-body">
                                             <h5 class="card-title">{copyOfProducts.title}</h5>
                                             <p class="card-subtitle mb-2 text-body-secondary">{copyOfProducts.description}</p>
+                                            <p class="card-subtitle mb-2 text-body-secondary">{copyOfProducts.rating}</p>
+
 
                                         </div>
                                     </div>
