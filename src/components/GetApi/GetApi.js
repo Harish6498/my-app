@@ -20,12 +20,13 @@ export default function GetApi() {const [userName, setUserName] = useState("");
     async function getData() {
         const response = await axios.get("https://api.escuelajs.co/api/v1/products")
         setData(response.data)
-        console.log(data)
+        console.log(response.data)
 
     }
     return (
         <>
-            <h2>{data[0].title}</h2>
+            <h2>{data[8].title}</h2>
+ 
 
             <label>UserName</label>
             <input type="text" onChange={getUserName} />

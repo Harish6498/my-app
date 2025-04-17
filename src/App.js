@@ -5,6 +5,7 @@ import Input from './components/Input/Input';
 import Header from './components/Header/Header';
 import PostApi from './components/PostApi/PostApi';
 import GetApi from './components/GetApi/GetApi';
+import LifeCycleApi from './components/LifeCycleApi/LifeCycleApi';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     <Input/> */}
     {/* <Header/> */}
     {/* <PostApi/> */}
-    <GetApi/>
+    <LifeCycleApi/>
+    {/* <GetApi/> */}
     {/* <Router>
       <Routes>
         <Route path="/" element={<PostApi/>}/>

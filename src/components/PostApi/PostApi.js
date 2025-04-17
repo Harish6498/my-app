@@ -23,6 +23,9 @@ export default function PostApi() {
             password: password
         })
         setData(response.data)
+        console.log(response.data.access_token)
+        // localStorage.setItem("access_token",response.data.access_token)
+        sessionStorage.setItem("access_token",response.data.access_token)
 
     }
     return (
