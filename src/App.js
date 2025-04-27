@@ -6,6 +6,7 @@ import Header from './components/Header/Header';
 import PostApi from './components/PostApi/PostApi';
 import GetApi from './components/GetApi/GetApi';
 import LifeCycleApi from './components/LifeCycleApi/LifeCycleApi';
+import Weather from './components/Weather/Weather';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
     <Input/> */}
     {/* <Header/> */}
     {/* <PostApi/> */}
-    <LifeCycleApi/>
+    {/* <LifeCycleApi/> */}
+    <Weather/>
     {/* <GetApi/> */}
     {/* <Router>
       <Routes>
